@@ -22,11 +22,22 @@
   <body>
     <main id="parentMain">
       <section class="page1">
+        <section class="nav-page">
+          <i class="ri-close-line"></i>
+          <ul>
+            <li><a href="">Collections</a></li><hr/>
+            <li><a href="">Men</a></li><hr/>
+            <li><a href="">Women</a></li><hr/>
+            <li><a href="">About</a></li><hr/>
+            <li><a href="">Contact</a></li><hr/>
+          </ul>
+        </section>
         <nav>
-          <div class="nav-left">
+          <section class="nav-left">
             <i class="ri-menu-line"></i>
-            <div class="nav-logo"><h1>sneakers</h1></div>
-            <div class="navlinks">
+           
+            <section class="nav-logo"><h1>sneakers</h1></section>
+            <section class="navlinks">
               <ul>
                 <li><a href="">Collections</a></li>
                 <li><a href="">Men</a></li>
@@ -34,43 +45,73 @@
                 <li><a href="">About</a></li>
                 <li><a href="">Contact</a></li>
               </ul>
-            </div>
-          </div>
+            </section>
+          </section>
 
-          <div class="nav-right">
+          <section class="nav-right">
             <a href="cart.html"> <i class="ri-shopping-cart-fill"></i></a>
 
             <img src=" ./images/image-avatar.png" alt="" srcset="" />
-          </div>
+          </section>
         </nav>
+      
         <main class="section-main">
-          <!-- <div class="main-left">
-            <div class="product-img">
+          <section class="main-left">
+            <section class="product-img">
               <img src=" ./images/image-product-1.jpg" alt="" />
-            </div>
-          </div>
-          <div class="main-right">
-               <div id="main-product-description">
-                 
-                <h6 class="company-name">
-sneakers company
-                </h6>
-                <h1 class="product-name">
-                  Fall Limited Editition <br> Sneakers
-                </h1>
-                <p class="product-details">
-                  These low-profile sneakers are your perfect casual wear
-  companion. Featuring a durable rubber outer sole, they'1l
-  withstand everything the weather can offer.
-                </p>
-               </div>
-          </div> -->
+            </section>
+            <section class="footer" style="width: 100%; display: none; flex-direction: row; gap: 1rem; margin-top: 20px; flex-wrap: wrap;">
+              <section class="products-images">
+                <img src=" ./images/image-product-3.jpg" alt="" srcset=""style="height: 10vmax; width: 10vmax;"/>
+              </section> <section class="products-images">
+                <img src=" ./images/image-product-3.jpg" alt="" srcset=""style="height: 10vmax; width: 10vmax;"/>
+              </section> <section class="products-images">
+                <img src=" ./images/image-product-3.jpg" alt="" srcset=""style="height: 10vmax; width: 10vmax;"/>
+              </section> <section class="products-images">
+                <img src=" ./images/image-product-3.jpg" alt="" srcset=""style="height: 10vmax; width: 10vmax"/>
+              </section>
+            </section>
+          </section>
+          <section class="main-right">
+            <section id="main-product-description">
+              <h6 class="company-name">sneakers company</h6>
+              <h1 class="product-name">
+                Fall Limited Editition <br />
+                Sneakers
+              </h1>
+              <p class="product-details">
+                These low-profile sneakers are your perfect casual wear
+                companion. Featuring a durable rubber outer sole, they'1l
+                withstand everything the weather can offer.
+              </p>
+                <section     class="product-func">
+                 <section class="product-discount" >
+                  <section class="section-1">
+                    <h2 class="product-discount-price">$125.00</h2>
+                    <span class="discount-price">50%</span>
+  
+                  </section>
+                  <section class="section-2">
+                    <span class="product-price">$250.00</span>
+                   </section>
+                </section>
+
+                <section class="cart-func">
+                   <section class="cart-count">
+                    <button class="cart-decriment">-</button>
+                    <button class="cart-counts">0</button>
+                    <button class="cart-increment">+</button>
+                   </section>
+                   <button class="add-cart-button">Add to Cart</button>
+                </section>
+              </section>
+              <div class="div" style="height: 100px;"> </div>
+            </section>
+          
+
+          </section>
         </main>
-        <div class="footer">
-          <div class="products-images">
-            <img src="" alt="" srcset="">
-          </div>
-        </div>
+        
       </section>
     </main>
   </body>
