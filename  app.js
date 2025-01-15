@@ -1,4 +1,4 @@
- 
+//  BurgerMenue code Starts from here
  function burgerMenue (){
   const menueBurger = document.querySelector('.ri-menu-line');
 
@@ -13,7 +13,9 @@
    navitems.style.display = 'none';
  })
  }
- 
+//  BurgerMenue code Ends here
+
+// ProductListCode Starts here
  function  productListPage(){
  
   const main_left= document.querySelector(".product-img img");
@@ -34,9 +36,30 @@
   })
  }
 
+
+// ProductListPage ends here
+
+// Cart opening closing functionality starts  from here
+function cart_Functionality(){
+  const cart = document.querySelector('.ri-shopping-cart-fill');
+  cart.addEventListener('click', () => {
+    const cart_page = document.querySelector('.cart-page');
+    cart_page.style.display = 'inline-block';
+    cart.style.display="none";
+  })
+  const cart_page_close = document.querySelector('.cart-page .ri-close-line');
+  cart_page_close.addEventListener('click', () => {
+    const cart_page = document.querySelector('.cart-page');
+    cart_page.style.display = 'none';
+    const cart = document.querySelector('.ri-shopping-cart-fill');
+    cart.style.display="inline-block";
+  })
+}
+//  Calling functions 
+// here
   productListPage()
 
 
-
+cart_Functionality()
  burgerMenue()
 

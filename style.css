@@ -89,6 +89,15 @@ a {
 .nav-right i {
   display: inline-block;
 }
+.nav-right .cart-page{
+  height: 30vh;
+  width: 30vw;
+  background: rgb(227, 223, 223);
+   position: absolute;
+  top: 40%;
+  right: 10%;
+  display: none;
+}
 /* main section desinge start here */
 .section-main {
   height: calc(90% - 10%);
@@ -315,7 +324,7 @@ background: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 3rem 5px;
+    padding: 2.5rem 5px;
     border-bottom: 1px solid rgb(228, 228, 228);
     
     
